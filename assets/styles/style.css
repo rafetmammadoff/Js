@@ -1,3 +1,68 @@
+.popular {
+  margin-top: 100px;
+}
+
+.popular .container .main-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  padding-top: 26px;
+  background: #f9fafb;
+  border-radius: 15px;
+  border: 1px solid #eaeaea;
+}
+
+.popular .container .main-row .card-area .img-area img {
+  max-width: 225px;
+}
+
+.popular .container .main-row .text-area .row .title {
+  margin-bottom: 20px;
+}
+
+.popular .container .main-row .text-area .row .btn-area {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular .container .main-row .text-area .row .btn-area .button1 {
+  width: 280px;
+  background-color: #f45369;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 11px 20px 14px;
+  font-size: 24px;
+  color: #fff !important;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  text-decoration: none;
+  -ms-flex-negative: inherit;
+      flex-shrink: inherit;
+}
+
+.popular .container .main-row .text-area .row .btn-area .button2 {
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #2e3131;
+  -ms-flex-negative: inherit;
+      flex-shrink: inherit;
+}
+
 .head .container .btns h1 {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -307,6 +372,30 @@
   .link-section ul li {
     padding: 18px 0 !important;
     border-bottom: 1px solid #eaeaea;
+  }
+  .popular .main-row {
+    padding: 0 !important;
+  }
+  .popular .main-row .btn-area {
+    display: block !important;
+    padding-bottom: 20px;
+  }
+  .popular .main-row .btn-area .button2 {
+    width: 280px;
+    height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 !important;
+    border: 1px solid rgba(46, 49, 49, 0.3);
+    margin-top: 20px !important;
+    border-radius: 8px;
   }
 }
 /*# sourceMappingURL=style.css.map */

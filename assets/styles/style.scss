@@ -1,3 +1,66 @@
+.popular{
+    margin-top: 100px;
+    .container{
+        .main-row{
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            padding-top: 26px;
+            background: #f9fafb;
+            border-radius: 15px;
+            border: 1px solid #eaeaea;
+
+            .card-area{
+                .img-area{
+                    img{
+                        max-width: 225px;
+                    }
+                }
+
+            }
+            .text-area{
+                .row{
+                    .title{
+                        margin-bottom: 20px;
+                    }
+                    .desc{
+
+                    }
+                    .btn-area{
+                        margin-top: 40px;
+                        display: flex;
+                        align-items: center;
+                        .button1{
+                            width: 280px;
+                            background-color: #f45369;
+                            border-radius: 8px;
+                            display: inline-block;
+                            padding: 11px 20px 14px;
+                            font-size: 24px;
+                            color: #fff!important;
+                            line-height: 30px;
+                            text-align: center;
+                            border: none;
+                            cursor: pointer;
+                            transition: .3s linear;
+                            text-decoration: none;
+                            flex-shrink: inherit;
+                        }
+                        .button2{
+                            margin-left: 40px;
+                            font-size: 18px;
+                            line-height: 23px;
+                            text-decoration: none;
+                            color: #2e3131;
+                            flex-shrink: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .head{
     .container{
         .btns{
@@ -244,6 +307,27 @@
             li{
                 padding:18px 0 !important;
                 border-bottom: 1px solid #eaeaea;
+            }
+        }
+    }
+    .popular{
+        .main-row{
+            padding: 0 !important;
+            .btn-area{
+                display: block !important;
+                padding-bottom: 20px;
+
+                .button2{
+                    width: 280px;
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 !important;
+                    border: 1px solid rgba(46,49,49,.3);
+                    margin-top: 20px !important;
+                    border-radius: 8px;
+                }
             }
         }
     }
